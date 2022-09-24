@@ -386,11 +386,11 @@ CapsuleCollider:
   m_GameObject: {fileID: 521307231056944807}
   m_Material: {fileID: 13400000, guid: 06a6b634ab1b17d4ca9bbabda6e172ca, type: 2}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.055
   m_Height: 0.22
   m_Direction: 1
-  m_Center: {x: 0, y: 0.12, z: 0}
+  m_Center: {x: 0, y: 0.13, z: 0}
 --- !u!144 &1058163122
 CharacterJoint:
   m_ObjectHideFlags: 0
@@ -1079,9 +1079,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.055
-  m_Height: 0.3
+  m_Height: 0.27
   m_Direction: 1
-  m_Center: {x: 0, y: 0.14, z: 0}
+  m_Center: {x: 0, y: 0.15, z: 0}
 --- !u!144 &1547979006
 CharacterJoint:
   m_ObjectHideFlags: 0
@@ -1522,11 +1522,11 @@ CapsuleCollider:
   m_GameObject: {fileID: 2085991665791761002}
   m_Material: {fileID: 13400000, guid: 06a6b634ab1b17d4ca9bbabda6e172ca, type: 2}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.055
   m_Height: 0.22
   m_Direction: 1
-  m_Center: {x: 0, y: 0.12, z: 0}
+  m_Center: {x: 0, y: 0.13, z: 0}
 --- !u!144 &1738950170
 CharacterJoint:
   m_ObjectHideFlags: 0
@@ -4508,7 +4508,7 @@ MonoBehaviour:
   boneShape: 1
   drawBones: 1
   drawTripods: 0
-  boneSize: 0.01
+  boneSize: 1
   tripodSize: 1
   boneColor: {r: 0, g: 0, b: 1, a: 0.5}
   m_Transforms:
@@ -5819,9 +5819,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.055
-  m_Height: 0.3
+  m_Height: 0.27
   m_Direction: 1
-  m_Center: {x: 0, y: 0.14, z: 0}
+  m_Center: {x: 0, y: 0.15, z: 0}
 --- !u!144 &1101262468
 CharacterJoint:
   m_ObjectHideFlags: 0
