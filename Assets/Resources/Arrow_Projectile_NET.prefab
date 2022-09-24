@@ -14,11 +14,14 @@ GameObject:
   - component: {fileID: 5870962300060658055}
   - component: {fileID: 5808060838142814067}
   - component: {fileID: 5508637927875693146}
-  - component: {fileID: 2103575276102284229}
-  - component: {fileID: 6826037725749323206}
-  - component: {fileID: 8161607195602247596}
+  - component: {fileID: -5764859935625643118}
+  - component: {fileID: -2569781756030856448}
+  - component: {fileID: 2734501424091012988}
+  - component: {fileID: 3128545372738254032}
+  - component: {fileID: 4441687312186545349}
+  - component: {fileID: 3688922130047056483}
   m_Layer: 7
-  m_Name: Arrow_Projectile
+  m_Name: Arrow_Projectile_NET
   m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -101,8 +104,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1.12}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.3931217, y: 1.3634708, z: 1.2667848}
+  m_Center: {x: 0.024993563, y: -0.013916802, z: 0.07339297}
 --- !u!54 &5808060838142814067
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -118,7 +121,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 2
+  m_CollisionDetection: 1
 --- !u!114 &5508637927875693146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1138,7 +1141,7 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
   eventHandlerComponentsAdded: 1
---- !u!114 &2103575276102284229
+--- !u!114 &-5764859935625643118
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1147,12 +1150,49 @@ MonoBehaviour:
   m_GameObject: {fileID: 7834596361708559150}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -664232604, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Script: {fileID: 11500000, guid: 19a21220299d849abaffd33cc04a657b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TargetFSMs:
-  - {fileID: 5508637927875693146}
---- !u!114 &6826037725749323206
+--- !u!114 &-2569781756030856448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7834596361708559150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
+--- !u!114 &2734501424091012988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7834596361708559150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents:
+  - {fileID: -2569781756030856448}
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
+--- !u!114 &3128545372738254032
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1166,7 +1206,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TargetFSMs:
   - {fileID: 5508637927875693146}
---- !u!114 &8161607195602247596
+--- !u!114 &4441687312186545349
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1176,6 +1216,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 82786459, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 5508637927875693146}
+--- !u!114 &3688922130047056483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7834596361708559150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -664232604, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   TargetFSMs:
