@@ -75,3 +75,7 @@ MonoBehaviour:
   - PHOTON / ON REGION LIST RECEIVED
   - PHOTON / ON WEBRPC RESPONSE
   - PHOTON / ON PHOTON INSTANTIATE
+  - Shot Fired
+  - Bullet Collided Head
+  - Bullet Collided Body
+  - Bullet Collided Ground
