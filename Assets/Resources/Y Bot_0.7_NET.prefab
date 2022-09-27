@@ -2976,18 +2976,12 @@ MonoBehaviour:
         - fallingEvent
         paramDataPos: 0000000000000000000000000100000000000000000000000000000004000000010000000200000003000000040000000800000001000000000000000500000006000000090000000a000000020000000100000007000000080000000e0000000f0000000300000002000000090000001300000000000000
         paramByteDataSize: 040000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000010000000000000000000000000000000000000001000000040000000000000000000000000000000000000001000000040000000000000000000000000000000400000000000000
-    events:
-    - name: isMine
-      isSystemEvent: 0
-      isGlobal: 0
-    - name: FINISHED
-      isSystemEvent: 1
-      isGlobal: 0
+    events: []
     globalTransitions: []
     variables:
       floatVariables:
       - useVariable: 1
-        name: PlayerMag
+        name: 
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -3005,7 +2999,7 @@ MonoBehaviour:
         networkSync: 0
         value: 0
       - useVariable: 1
-        name: mouseY
+        name: 
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -3043,7 +3037,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -4122,9 +4116,6 @@ MonoBehaviour:
     - name: Shot Fired
       isSystemEvent: 0
       isGlobal: 1
-    - name: Shoot Test
-      isSystemEvent: 0
-      isGlobal: 1
     globalTransitions: []
     variables:
       floatVariables:
@@ -4241,12 +4232,12 @@ MonoBehaviour:
         value: {fileID: 0}
       objectVariables:
       - useVariable: 1
-        name: bulletSpawnPoint
+        name: 
         tooltip: 
         showInInspector: 0
         networkSync: 0
-        typeName: UnityEngine.GameObject
-        value: {fileID: 724270024037692560}
+        typeName: 
+        value: {fileID: 0}
       materialVariables: []
       textureVariables: []
       arrayVariables: []
@@ -4264,7 +4255,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -6919,12 +6910,6 @@ MonoBehaviour:
     - name: Shot Fired
       isSystemEvent: 0
       isGlobal: 1
-    - name: isMine
-      isSystemEvent: 0
-      isGlobal: 0
-    - name: notMine
-      isSystemEvent: 0
-      isGlobal: 0
     globalTransitions:
     - fsmEvent:
         name: Shot Fired

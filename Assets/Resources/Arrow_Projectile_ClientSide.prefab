@@ -1657,17 +1657,8 @@ MonoBehaviour:
     - name: FINISHED
       isSystemEvent: 1
       isGlobal: 0
-    - name: TRIGGER ENTER
-      isSystemEvent: 1
-      isGlobal: 0
-    - name: Hit entity
-      isSystemEvent: 0
-      isGlobal: 0
     - name: hit geometry
       isSystemEvent: 0
-      isGlobal: 0
-    - name: COLLISION ENTER
-      isSystemEvent: 1
       isGlobal: 0
     - name: hit body
       isSystemEvent: 0
@@ -1682,12 +1673,6 @@ MonoBehaviour:
       isSystemEvent: 0
       isGlobal: 1
     - name: Bullet Collided Ground
-      isSystemEvent: 0
-      isGlobal: 1
-    - name: isMine
-      isSystemEvent: 0
-      isGlobal: 0
-    - name: SUKA RABOTAY
       isSystemEvent: 0
       isGlobal: 1
     globalTransitions:
@@ -1727,7 +1712,7 @@ MonoBehaviour:
         networkSync: 0
         value: 0
       - useVariable: 1
-        name: gravity
+        name: 
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -1746,7 +1731,7 @@ MonoBehaviour:
         value: 0
       intVariables:
       - useVariable: 1
-        name: viewId
+        name: 
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -1754,7 +1739,7 @@ MonoBehaviour:
       boolVariables: []
       stringVariables:
       - useVariable: 1
-        name: receiverID
+        name: 
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -1795,7 +1780,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -1815,7 +1800,7 @@ MonoBehaviour:
     handleTriggerEnter: 0
     handleTriggerExit: 0
     handleTriggerStay: 0
-    handleCollisionEnter: 1
+    handleCollisionEnter: 0
     handleCollisionExit: 0
     handleCollisionStay: 0
     handleParticleCollision: 0
@@ -1823,7 +1808,7 @@ MonoBehaviour:
     handleJointBreak: 0
     handleJointBreak2D: 0
     handleOnGUI: 0
-    handleFixedUpdate: 1
+    handleFixedUpdate: 0
     handleLateUpdate: 0
     handleApplicationEvents: 0
     handleUiEvents: 0
